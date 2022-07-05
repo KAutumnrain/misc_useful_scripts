@@ -1,0 +1,9 @@
+csvmdify/CSV markdownify:
+
+Imports HTML objects, 
+converts them to markdown,
+exports them to a new file.
+
+
+Takes two arguments at the moment:
+Input file (-if) and Output file (-of)
