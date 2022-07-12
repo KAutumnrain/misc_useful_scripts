@@ -7,3 +7,9 @@ exports them to a new file.
 
 Takes two arguments at the moment:
 Input file (-if) and Output file (-of)
+
+
+Requirements:
+Python 3.9+
+- Markdownify
+- argparse
