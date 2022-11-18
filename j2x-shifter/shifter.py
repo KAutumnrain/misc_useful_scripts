@@ -17,7 +17,12 @@ from json2xml.utils import readfromurl, readfromstring, readfromjson
 # script, being to actually take this 
 # data somewhere else, hasn't been 
 # implemented yet, but once I have a 
-# more-complete picture  
+# more-complete picture it probabkly
+# will. 
+
+# I personally intend to use this as
+# scaffolding and encourage others to
+# more or less do the same thing.
 
 
 # We're using a flask app for this because
@@ -37,3 +42,4 @@ def xml_listen():
 
 if __name__ == "__main__":
 	app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 1337)))
+
